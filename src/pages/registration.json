@@ -1,0 +1,10 @@
+{
+  "layout": "base.njk",
+  "title": "Registration",
+  "permalink": "/registration/",
+  "wpId": "350",
+  "date": "2023-02-27T16:53:11",
+  "kind": "page",
+  "headFile": "heads/registration.html",
+  "bodyClass": "wp-singular page-template-default page page-id-350 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-350"
+}

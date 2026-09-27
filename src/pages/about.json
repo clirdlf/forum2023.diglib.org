@@ -1,0 +1,10 @@
+{
+  "layout": "base.njk",
+  "title": "About",
+  "permalink": "/about/",
+  "wpId": "306",
+  "date": "2023-02-15T18:23:39",
+  "kind": "page",
+  "headFile": "heads/about.html",
+  "bodyClass": "wp-singular page-template-default page page-id-306 page-parent wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-306"
+}

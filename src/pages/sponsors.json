@@ -1,0 +1,10 @@
+{
+  "layout": "base.njk",
+  "title": "Sponsors",
+  "permalink": "/sponsors/",
+  "wpId": "338",
+  "date": "2023-02-15T17:59:52",
+  "kind": "page",
+  "headFile": "heads/sponsors.html",
+  "bodyClass": "wp-singular page-template-default page page-id-338 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-338"
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://forum2023.diglib.org/sitemap.xml

@@ -1,0 +1,10 @@
+{
+  "layout": "base.njk",
+  "title": "Livestream and Recordings",
+  "permalink": "/livestream-and-recordings/",
+  "wpId": "2260",
+  "date": "2023-11-08T11:12:58",
+  "kind": "page",
+  "headFile": "heads/livestream-and-recordings.html",
+  "bodyClass": "wp-singular page-template-default page page-id-2260 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-2260"
+}

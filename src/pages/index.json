@@ -1,0 +1,10 @@
+{
+  "layout": "base.njk",
+  "title": "Home",
+  "permalink": "/",
+  "wpId": "227",
+  "date": "2023-02-15T13:08:18",
+  "kind": "page",
+  "headFile": "heads/index.html",
+  "bodyClass": "home wp-singular page-template page-template-elementor_header_footer page page-id-227 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-template-full-width elementor-kit-148 elementor-page elementor-page-227"
+}

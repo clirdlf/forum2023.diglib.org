@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en-US">
+<head>{% include headFile %}</head>
+<body class="{{ bodyClass }}">
+{% include "header.html" %}
+{{ content | safe }}
+{% include "footer.html" %}
+</body>
+</html>

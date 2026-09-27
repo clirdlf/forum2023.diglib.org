@@ -1,0 +1,10 @@
+{
+  "layout": "base.njk",
+  "title": "Schedule",
+  "permalink": "/schedule/",
+  "wpId": "314",
+  "date": "2023-02-15T17:54:44",
+  "kind": "page",
+  "headFile": "heads/schedule.html",
+  "bodyClass": "wp-singular page-template-default page page-id-314 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-314"
+}

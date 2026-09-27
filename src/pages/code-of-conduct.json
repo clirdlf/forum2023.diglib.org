@@ -1,0 +1,10 @@
+{
+  "layout": "base.njk",
+  "title": "Code of Conduct",
+  "permalink": "/code-of-conduct/",
+  "wpId": "308",
+  "date": "2023-02-15T17:52:10",
+  "kind": "page",
+  "headFile": "heads/code-of-conduct.html",
+  "bodyClass": "wp-singular page-template-default page page-id-308 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-308"
+}

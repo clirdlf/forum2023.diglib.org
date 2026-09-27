@@ -3,111 +3,111 @@
 	font-style: italic;
 	font-weight: normal;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-VariableFont_wght.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-VariableFont_wght.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: normal;
 	font-weight: normal;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-Italic-VariableFont_wght.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: italic;
 	font-weight: 600;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-SemiBoldItalic.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-SemiBoldItalic.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: normal;
 	font-weight: 600;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-SemiBold.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-SemiBold.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: normal;
 	font-weight: 400;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-Regular.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-Regular.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: italic;
 	font-weight: 500;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-MediumItalic.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-MediumItalic.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: normal;
 	font-weight: 500;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-Medium.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-Medium.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: italic;
 	font-weight: 300;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-LightItalic.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-LightItalic.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: normal;
 	font-weight: 300;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-Light.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-Light.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: italic;
 	font-weight: 400;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-Italic.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-Italic.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: italic;
 	font-weight: 800;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-ExtraBoldItalic.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-ExtraBoldItalic.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: normal;
 	font-weight: 800;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-ExtraBold.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-ExtraBold.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: italic;
 	font-weight: 700;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-BoldItalic.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-BoldItalic.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: normal;
 	font-weight: 700;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-Bold.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-Bold.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: italic;
 	font-weight: 900;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-BlackItalic.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-BlackItalic.ttf") format('truetype');
 }
 @font-face {
 	font-family: 'Figtree';
 	font-style: normal;
 	font-weight: 900;
 	font-display: auto;
-	src: url('https://forum2023.diglib.org/wp-content/uploads/sites/45/2023/02/Figtree-Black.ttf') format('truetype');
+	src: url("/wp-content/uploads/sites/45/2023/02/Figtree-Black.ttf") format('truetype');
 }
 /* End Custom Fonts CSS */

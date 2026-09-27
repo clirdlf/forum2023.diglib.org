@@ -1,0 +1,10 @@
+{
+  "layout": "base.njk",
+  "title": "Local Guide",
+  "permalink": "/local-guide/",
+  "wpId": "334",
+  "date": "2023-02-15T17:59:27",
+  "kind": "page",
+  "headFile": "heads/local-guide.html",
+  "bodyClass": "wp-singular page-template-default page page-id-334 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-334"
+}

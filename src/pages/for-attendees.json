@@ -1,0 +1,10 @@
+{
+  "layout": "base.njk",
+  "title": "For Attendees",
+  "permalink": "/for-attendees/",
+  "wpId": "328",
+  "date": "2023-02-15T17:58:39",
+  "kind": "page",
+  "headFile": "heads/for-attendees.html",
+  "bodyClass": "wp-singular page-template-default page page-id-328 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-328"
+}

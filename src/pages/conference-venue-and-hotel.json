@@ -1,0 +1,10 @@
+{
+  "layout": "base.njk",
+  "title": "Conference Venue and Hotel",
+  "permalink": "/conference-venue-and-hotel/",
+  "wpId": "326",
+  "date": "2023-02-15T17:56:43",
+  "kind": "page",
+  "headFile": "heads/conference-venue-and-hotel.html",
+  "bodyClass": "wp-singular page-template-default page page-id-326 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-326"
+}
