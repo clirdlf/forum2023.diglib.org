@@ -5,6 +5,9 @@
   "wpId": "338",
   "date": "2023-02-15T17:59:52",
   "kind": "page",
-  "headFile": "heads/sponsors.html",
-  "bodyClass": "wp-singular page-template-default page page-id-338 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-338"
+  "bodyClass": "wp-singular page-template-default page page-id-338 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-338",
+  "description": "Sponsors Thank you to our 2023 CLIR Events sponsors! ★ 2023 CLIR Events exhibitor Exhibitors will be present at the events. Stop by their tables to say hello if you’re joining us in St. Louis! Platinum Platinum Sponsor AVP ★ AVP (weareavp.com) offers consulting services to help make your digital assets and media easier to Read More",
+  "image": "/wp-content/uploads/sites/45/2023/10/Sponsorship-Pack-3.jpg",
+  "updated": "2023-11-13T19:11:47+00:00",
+  "styleKey": "sponsors"
 }

@@ -5,6 +5,10 @@
   "wpId": "330",
   "date": "2023-02-15T17:58:59",
   "kind": "page",
-  "headFile": "heads/for-presenters-facilitators.html",
-  "bodyClass": "wp-singular page-template-default page page-id-330 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-330"
+  "bodyClass": "wp-singular page-template-default page page-id-330 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-330",
+  "description": "Resources for Presenters and Facilitators /*! elementor – v3.11.2 – 22-02-2023 */ .elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=”.svg”]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block} The most successful DLF sessions are inherently participatory, inclusive, and action-oriented. An interactive session engages and activates participants from the start, inspiring them to make and do rather than simply listen and watch. An inclusive session welcomes participants Read More",
+  "image": "/wp-content/uploads/sites/45/2023/02/30969180287_d9da4ec82b_k-Edited.jpg",
+  "updated": "2023-02-23T21:42:12+00:00",
+  "styleKey": "for-presenters-facilitators",
+  "heading": "Resources for Presenters and Facilitators"
 }

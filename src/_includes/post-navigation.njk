@@ -1,0 +1,5 @@
+<nav class="elementor-post-navigation" aria-label="Post navigation">
+{% set adjacent = collections.posts | adjacentPosts(page.url) %}
+<div class="elementor-post-navigation__prev elementor-post-navigation__link">{% if adjacent.previous %}<a href="{{ adjacent.previous.url }}" rel="prev"><span class="post-navigation__prev--label">Previous</span><span class="screen-reader-text">: {{ adjacent.previous.data.title }}</span></a>{% endif %}</div>
+<div class="elementor-post-navigation__next elementor-post-navigation__link">{% if adjacent.next %}<a href="{{ adjacent.next.url }}" rel="next"><span class="post-navigation__next--label">Next</span><span class="screen-reader-text">: {{ adjacent.next.data.title }}</span></a>{% endif %}</div>
+</nav>

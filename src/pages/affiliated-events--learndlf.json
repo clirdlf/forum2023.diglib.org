@@ -5,6 +5,10 @@
   "wpId": "324",
   "date": "2023-02-15T17:56:04",
   "kind": "page",
-  "headFile": "heads/affiliated-events--learndlf.html",
-  "bodyClass": "wp-singular page-template-default page page-id-324 page-child parent-pageid-322 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-324"
+  "bodyClass": "wp-singular page-template-default page page-id-324 page-child parent-pageid-322 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-324",
+  "description": "Learn@DLF 2023 We are excited to host Learn@DLF on Sunday, November 12, 2023, to cultivate creative training and professional development opportunities for attendees. Learn@DLF will be structured entirely as a workshop day. Through engaging, hands-on sessions, attendees will gain experience with new tools and resources, exchange ideas, and develop and share expertise with fellow community Read More",
+  "image": "/wp-content/uploads/sites/45/2023/02/2019_DLF_Forum_SUNDAY_PF-1418_crop-scaled.jpg",
+  "updated": "2023-11-06T16:01:48+00:00",
+  "styleKey": "affiliated-events--learndlf",
+  "heading": "Learn@DLF 2023"
 }

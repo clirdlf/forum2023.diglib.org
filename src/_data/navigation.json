@@ -1,0 +1,117 @@
+[
+  {
+    "label": "About",
+    "children": [
+      {
+        "label": "About the Event",
+        "url": "/about/"
+      },
+      {
+        "label": "News",
+        "url": "/news/"
+      },
+      {
+        "label": "Code of Conduct",
+        "url": "/code-of-conduct/"
+      },
+      {
+        "label": "The Team",
+        "url": "/the-team/"
+      }
+    ]
+  },
+  {
+    "label": "Schedule",
+    "children": [
+      {
+        "label": "Schedule",
+        "url": "/schedule/"
+      },
+      {
+        "label": "Featured Speakers",
+        "url": "/featured-speakers/"
+      },
+      {
+        "label": "Wellness Activities",
+        "url": "/wellness-activities/"
+      },
+      {
+        "label": "Shared Notes and Slides",
+        "url": "/shared-notes-and-slides/"
+      }
+    ]
+  },
+  {
+    "label": "Affiliated Events",
+    "children": [
+      {
+        "label": "Learn@DLF",
+        "url": "/affiliated-events/learndlf/"
+      },
+      {
+        "label": "NDSA’s DigiPres",
+        "url": "https://ndsa.org/conference/"
+      }
+    ]
+  },
+  {
+    "label": "Resources",
+    "children": [
+      {
+        "label": "Conference Venue and Hotel",
+        "url": "/conference-venue-and-hotel/"
+      },
+      {
+        "label": "For Attendees",
+        "url": "/for-attendees/"
+      },
+      {
+        "label": "For Presenters and Facilitators",
+        "url": "/for-presenters-facilitators/"
+      },
+      {
+        "label": "Health Protocols",
+        "url": "/health-protocols/"
+      },
+      {
+        "label": "Activism and Advocacy",
+        "url": "/activism-advocacy/"
+      },
+      {
+        "label": "Local Guide",
+        "url": "/local-guide/"
+      }
+    ]
+  },
+  {
+    "label": "Sponsorship",
+    "children": [
+      {
+        "label": "Sponsors",
+        "url": "/sponsors/"
+      },
+      {
+        "label": "Sponsorship",
+        "url": "/sponsorship/"
+      }
+    ]
+  },
+  {
+    "label": "Fellowships",
+    "children": [
+      {
+        "label": "Fellowships",
+        "url": "/fellowships/"
+      },
+      {
+        "label": "Meet the Fellows",
+        "url": "/meet-the-fellows/"
+      }
+    ]
+  },
+  {
+    "label": "Registration",
+    "url": "/registration/",
+    "children": []
+  }
+]

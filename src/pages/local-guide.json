@@ -5,6 +5,10 @@
   "wpId": "334",
   "date": "2023-02-15T17:59:27",
   "kind": "page",
-  "headFile": "heads/local-guide.html",
-  "bodyClass": "wp-singular page-template-default page page-id-334 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-334"
+  "bodyClass": "wp-singular page-template-default page page-id-334 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-334",
+  "description": "Local Guide: St. Louis Thank you to the 2023 DLF Forum Community Committee for authoring this guide, and to the DLF Digital Accessibility Working Group for reviewing and testing for accessibility. Table of Contents Prepare for your visit to St. Louis, Missouri State and Local News NPR St. Louis (STLPR) CLIR / DLF St. Louis Post Read More",
+  "image": "/wp-content/uploads/sites/45/2023/06/e2371a91-74be-4e8e-bfa7-d981a1fe830f-cropped.jpg",
+  "updated": "2023-11-09T17:04:27+00:00",
+  "styleKey": "local-guide",
+  "heading": "Local Guide: <br>St. Louis"
 }

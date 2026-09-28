@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }} — {{ site.name }}</title>
+<meta name="description" content="{{ description | default(site.description, true) }}">
+<link rel="canonical" href="{{ page.url | absoluteUrl(site.url) }}">
+<meta property="og:type" content="{{ 'article' if kind == 'post' else 'website' }}">
+<meta property="og:title" content="{{ title }} — {{ site.name }}">
+<meta property="og:description" content="{{ description | default(site.description, true) }}">
+<meta property="og:url" content="{{ page.url | absoluteUrl(site.url) }}">
+<meta property="og:site_name" content="{{ site.name }}">
+{% if image %}<meta property="og:image" content="{{ image | absoluteUrl(site.url) }}">{% endif %}
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="{{ site.icon }}">
+<script type="application/ld+json">{{ {title: title, description: description, url: page.url, kind: kind, date: date, updated: updated, image: image} | structuredData(site) | safe }}</script>
+{% for stylesheet in styleKey | stylesheets %}<link rel="stylesheet" href="{{ stylesheet }}">{% endfor %}
+<link rel="stylesheet" href="/assets/site.css">

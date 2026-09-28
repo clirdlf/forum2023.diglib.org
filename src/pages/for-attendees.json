@@ -5,6 +5,10 @@
   "wpId": "328",
   "date": "2023-02-15T17:58:39",
   "kind": "page",
-  "headFile": "heads/for-attendees.html",
-  "bodyClass": "wp-singular page-template-default page page-id-328 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-328"
+  "bodyClass": "wp-singular page-template-default page page-id-328 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-328",
+  "description": "Resources for Attendees Jump to Section Code of Conduct Please review our DLF Code of Conduct prior to joining us at the Forum. On site, DLF staff will be identifiable by their name badges and white lanyards. For First-Time Attendees We hope our first-time attendees will feel empowered and comfortable when they attend our events. Read More",
+  "image": "/wp-content/uploads/sites/45/2023/02/22337361150_7ee0b581b8_o-Edited.jpg",
+  "updated": "2023-11-01T18:02:18+00:00",
+  "styleKey": "for-attendees",
+  "heading": "Resources <br>for Attendees"
 }

@@ -1,0 +1,6 @@
+{
+  "layout": "base.njk",
+  "styleKey": "about",
+  "bodyClass": "elementor-default elementor-kit-148",
+  "sitemap": true
+}

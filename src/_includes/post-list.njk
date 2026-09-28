@@ -1,0 +1,16 @@
+{% for post in collections.posts %}
+{% if listing != 'cards' or loop.index <= 3 %}
+<article class="elementor-post elementor-grid-item" role="listitem">
+{% if listing == 'cards' %}<div class="elementor-post__card">{% else %}
+{% if post.data.thumbnail %}<a class="elementor-post__thumbnail__link" href="{{ post.url }}" tabindex="-1" aria-hidden="true"><div class="elementor-post__thumbnail"><img loading="lazy" src="{{ post.data.thumbnail }}" alt="{{ post.data.thumbnailAlt }}"></div></a>{% endif %}
+{% endif %}
+<div class="elementor-post__text">
+{% if listing == 'cards' %}<h4 class="elementor-post__title">{% else %}<h3 class="elementor-post__title">{% endif %}<a href="{{ post.url }}">{{ post.data.title }}</a>{% if listing == 'cards' %}</h4>{% else %}</h3>{% endif %}
+{% if listing != 'cards' %}<div class="elementor-post__meta-data"><time class="elementor-post-date" datetime="{{ post.date | isoDate }}">{{ post.date | readableDate }}</time></div>{% endif %}
+<div class="elementor-post__excerpt"><p>{{ post.data.homeExcerpt if listing == 'cards' and post.data.homeExcerpt else post.data.excerpt }}</p></div>
+<a class="elementor-post__read-more" href="{{ post.url }}" aria-label="Read more about {{ post.data.title }}">Read More »</a>
+</div>
+{% if listing == 'cards' %}<div class="elementor-post__meta-data"><time class="elementor-post-date" datetime="{{ post.date | isoDate }}">{{ post.date | readableDate }}</time></div></div>{% endif %}
+</article>
+{% endif %}
+{% endfor %}

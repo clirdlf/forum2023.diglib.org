@@ -3,15 +3,29 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "eleventy",
+    "build": "node scripts/clean.mjs && eleventy",
     "dev": "eleventy --serve",
     "check": "node scripts/check.mjs",
-    "import:wordpress": "node scripts/import-wordpress.mjs"
+    "import:wordpress": "node scripts/import-wordpress.mjs",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "playwright test",
+    "test:visual": "VISUAL_TEST=1 playwright test visual.spec.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "3.1.6",
+    "@axe-core/playwright": "4.13.0",
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.63.0",
     "cheerio": "1.2.0",
+    "eslint": "10.11.0",
     "fast-xml-parser": "5.11.1",
-    "playwright": "1.58.2"
+    "globals": "17.12.0",
+    "prettier": "3.9.9"
+  },
+  "packageManager": "pnpm@12.6.0",
+  "engines": {
+    "node": ">=22.14.0 <27"
   }
 }

@@ -1,83 +1,113 @@
 # DLF Forum 2023 — Eleventy
 
-A static migration of https://forum2023.diglib.org for GitHub Pages. The normal build uses only checked-in HTML, templates, styles, fonts, and media. It does not read the WordPress export or contact WordPress.
+A static migration of https://forum2023.diglib.org for GitHub Pages. Builds use checked-in content and assets, without contacting WordPress. Third-party schedules, videos, maps, and newsletter forms remain active, with visible fallback links.
 
-## Run locally
+## Development
 
-Use Node.js 22 or later:
-
-```sh
-npm ci
-npm start
-```
-
-Eleventy serves the site at http://localhost:8080. To produce and verify the deployable site:
+Use Node.js 22 (see `.node-version`) and pnpm 12.6.0 (pinned in `package.json`). pnpm is the only package manager; commit `pnpm-lock.yaml` when dependencies change.
 
 ```sh
-npm run build
-npm run check
+pnpm install --frozen-lockfile
+pnpm dev
 ```
 
-Output is `_site/`. Do not edit it directly.
+The development site runs at http://localhost:8080. For deployment output and checks:
 
-## Edit content
+```sh
+pnpm build
+pnpm check
+pnpm lint
+pnpm format:check
+```
 
-- `src/pages/*.html`: editable page/post body HTML. Elementor's rendered classes and layout wrappers are retained for visual fidelity. Edit text, links, and images inside those wrappers.
-- `src/pages/*.json`: each page's original URL (`permalink`), title, date, WordPress ID (provenance only), body classes, and head include. Nested URLs use `--` in the source filename; the `permalink` controls the public URL.
-- `src/_includes/header.html` and `footer.html`: shared navigation, announcement, footer, and newsletter form.
-- `src/_includes/heads/*.html`: per-page document titles, SEO metadata, and stylesheet references. Update these when changing a page title or description.
-- `src/_includes/base.njk`: shared document structure.
-- `src/assets/site.css` and `site.js`: local styles and interaction replacements.
-- `data/uploads/45/`: local media and captured Elementor styles/fonts, served at `/wp-content/uploads/sites/45/` to preserve existing image and document URLs. This URL is a static directory, not WordPress.
-- `src/assets/vendor/`: other captured styles, fonts, and images, organized by their source host and path.
+`pnpm build` clears generated output before building `_site/`. `pnpm format` formats maintained code and metadata; captured layout HTML and vendor CSS are deliberately excluded to keep migration diffs readable.
 
-For a new page, copy an existing page's HTML and JSON, give it a unique permalink, and copy/update its head include. Eleventy also accepts `.md` pages with front matter; specify `layout: base.njk`, `headFile`, and suitable `bodyClass` values. Imported HTML preserves the original visual design more closely than converting Elementor layouts into Markdown.
+## Content and templates
 
-Navigation and news-card excerpts are editable HTML snapshots. If adding posts, update the news and home-page listings too. The sitemap is generated automatically from pages with a `wpId` field.
+- `src/pages/*.html`: editable page/post bodies. Elementor layout wrappers remain to preserve the design. These files use Nunjucks, so shared components can be included directly.
+- `src/pages/*.json`: title, description, permalink, image, dates, and optional post excerpt/thumbnail. `heading` is an optional, intentionally different display heading (trusted HTML); otherwise the H1 uses `title`. Posts use `title` for their headings and listings.
+- `src/pages/pages.11tydata.json`: defaults for both existing and new HTML/Markdown pages: layout, styling, body classes, and sitemap inclusion.
+- `src/_data/site.json`: site name, production origin, default description, and icon.
+- `src/_data/navigation.json`: single navigation source for desktop and mobile.
+- `src/_includes/base.njk` and `head.njk`: shared document, landmark, skip link, metadata, and structured data. Titles, canonical/social URLs, and schema follow page data automatically. No WordPress search schema is emitted.
+- `src/_includes/header.njk`, `navigation.njk`, and `footer.html`: shared site chrome.
+- `src/_includes/post-list.njk` and `post-navigation.njk`: home/news listings and adjacent-post links, generated from the `posts` collection (`kind: post`, newest first). Post data supplies `excerpt`, optional `homeExcerpt`, `thumbnail`, and `thumbnailAlt`.
+- `src/assets/site.css` and `site.js`: maintained styles and progressive enhancements. Native buttons control navigation; tabs have keyboard focus management. Navigation, content panels, skip links, and gallery images remain available without JavaScript.
+
+### Add a page or post
+
+Create `src/pages/example.md` with front matter, or an HTML file plus same-name JSON metadata:
+
+```md
+---
+title: Example page
+description: A concise description of this page.
+permalink: /example/
+---
+
+<h1>{{ title }}</h1>
+
+Page content goes here.
+```
+
+Pages inherit the layout and `sitemap: true`; no WordPress ID is needed. Set `sitemap: false` to exclude a page. Keep existing permalinks stable.
+
+For a post, add `kind: post`, an ISO `date` (with timezone), and `excerpt`. It automatically appears in the news listing, homepage latest-three cards, adjacent-post navigation, and sitemap. An optional `updated` date controls the structured-data modification date. `wpId` is retained only for historical provenance and ordering simultaneous legacy posts; new posts do not need it.
+
+For a different layout appearance, use an existing `styleKey` from `src/_data/legacyStyles.json` or add authored styles to `site.css`. The default `about` key supplies the preserved base design. The current imported pages have explicit style keys and body classes.
+
+## Assets and performance
+
+The stylesheet manifest and `src/styles/imported/` preserve the original CSS order. The build emits a shared bundle and a page bundle, followed by `site.css`: three stylesheet requests instead of roughly thirty. Obsolete accessibility-widget, search-plugin, emoji, and block-global styles were removed. See `src/styles/README.md` for the CSS maintenance boundary.
+
+`data/uploads/45/` retains all supplied media, including historical variants, at `/wp-content/uploads/sites/45/`. Fonts and externally sourced images are local as well. The old path is a static URL, not a WordPress service. All original media is intentionally retained to avoid breaking historical direct links; the roughly 190 MB deployment is not the amount downloaded for a page. Unused generated CSS and upload-directory HTML are not published. The XML export is never published.
+
+## Validation
+
+`pnpm check` validates generated HTML, local links and fragment targets, responsive images, inline/external CSS asset references, approved external embed hosts, main landmarks, canonical URLs, JSON-LD, and sitemap destinations. It rejects external rendering assets and WordPress API/search endpoints. It does not test external sites' uptime or promise full WCAG conformance.
+
+Install the test browser once, then run the suite:
+
+```sh
+pnpm exec playwright install chromium
+pnpm test
+```
+
+The suite starts its own preview server on port 8081, checks all imported routes at desktop/mobile sizes, and exercises keyboard menus, tabs, accordions, galleries, and no-JavaScript content. Targeted axe checks cover core accessibility semantics on representative pages. External network requests are blocked in tests. CI runs these checks on pull requests before deployment.
+
+To use an existing Chrome installation locally, prefix test commands with `PLAYWRIGHT_CHANNEL=chrome`.
+
+Optional screenshot comparisons use committed local reference images, never the WordPress site:
+
+```sh
+pnpm test:visual
+# After reviewing an intentional visual change:
+pnpm test:visual --update-snapshots
+```
+
+Snapshots are platform-specific; the initial references were captured on macOS with Chrome. Use the same platform/browser for comparisons, or generate and review an additional platform's baseline. Visual tests are opt-in; CI runs functional/accessibility checks and saves failure screenshots and traces. Reference updates must be visually reviewed rather than accepted automatically.
 
 ## GitHub Pages
 
-`.github/workflows/pages.yml` installs locked dependencies, builds, runs the local link/asset checks, uploads `_site`, and deploys on pushes to `main` or manual dispatch. No WordPress connection or import step is used in CI.
+`.github/workflows/pages.yml` uses pnpm's frozen lockfile, runs lint/format/build/link/browser checks on pull requests and `main`, and deploys only successful `main` builds. Actions are pinned to commit SHAs. Only the deployment job receives Pages/OIDC write permissions. Dependabot proposes monthly package and Action updates.
 
 1. Push this repository to GitHub.
-2. In **Settings → Pages → Build and deployment**, choose **GitHub Actions**.
-3. In Pages settings, set the custom domain to **forum2023.diglib.org**. `src/CNAME` is included in the output.
-4. At cutover, point that subdomain's DNS CNAME at your account or organization's `<owner>.github.io` Pages host, then enable HTTPS in Pages settings when available.
+2. Choose **GitHub Actions** under **Settings → Pages → Build and deployment**.
+3. Set **forum2023.diglib.org** as the custom domain. `src/CNAME` is included in output.
+4. At cutover, point the subdomain's DNS CNAME to your account/organization's `<owner>.github.io` host, and enable HTTPS when available.
 
-The repository owner's Pages hostname cannot be inferred from this project. DNS and repository settings have not been changed by this migration. The workflow assumes the default branch is `main`.
+Repository settings and DNS have not been changed by this project. Configure branch protection to require the build job before merging.
 
-## Migration scope
+## Migration provenance and recovery
 
-The WordPress export supplies the published page/post inventory, IDs, dates, and URLs. The one-time importer captures the corresponding public rendered HTML because Elementor markup, generated styles, shared templates, and embeds cannot be faithfully reconstructed from WXR content alone.
+The WXR export supplied published IDs, dates, and URLs. The initial importer captured rendered Elementor HTML and styles to preserve appearance: 30 published pages and 13 posts, excluding DEMO pages, OLD-Sponsorship, drafts, and private content. `data/migration-report.json` records that original capture and its exclusions; it is historical provenance, not the current asset manifest.
 
-- 30 published pages and 13 posts imported, retaining their URLs.
-- Five DEMO pages, OLD-Sponsorship, drafts, and private content excluded.
-- Shared header/footer extracted; theme, widget, and font styles copied locally.
-- Responsive image sources, gallery thumbnails, CSS image/font URLs, and linked local documents resolve locally, including images originally served from other CLIR/DLF sites.
-- WordPress REST/oEmbed metadata, AJAX runtimes, analytics, and Cloudflare email-obfuscation scripts removed. Email links are ordinary `mailto:` links.
-- Local JavaScript handles navigation, tabs, accordions, table-of-contents controls, image lightboxes, share buttons, and sticky navigation. Decorative WordPress motion effects are not required for rendering.
-- Sched schedules, YouTube videos, Google Maps, and HubSpot newsletter forms remain live third-party embeds. Their provider-controlled resources still load from those providers, as expected for active embeds.
-- Two obsolete content links repaired; static redirects preserve `/affiliated-events/learnatdlf/` and `/resources/hotel-accommodations/`.
-- Three empty-page stylesheets also missing on the original server were omitted. Details, asset provenance, and exclusions are recorded in `data/migration-report.json`.
-
-Original upload filenames and generated styles are retained; vendor assets remain subject to their original licenses. The export is migration input only and is not published in `_site`.
-
-## Verification and one-time import
-
-`npm run check` checks all generated HTML pages, local links, responsive images, referenced styles/fonts, and WordPress API dependencies. The CI workflow runs this check before deployment.
-
-For optional browser verification, install Google Chrome, run the local server, then run:
+The importer is retained only as a recovery tool:
 
 ```sh
-node scripts/browser-check.mjs
+pnpm import:wordpress
 ```
 
-This checks representative desktop/mobile pages and interactions with external services blocked, and captures local/original screenshots in ignored `.cache/screenshots/`. `node scripts/browser-audit.mjs` checks every imported page at desktop and mobile sizes, also with external services blocked. External provider uptime is separate from these checks.
+It requires the original XML, uploads, and live WordPress site. All output now goes to `.cache/wordpress-import/`, including a staged copy of media. It never overwrites `src/` or the supplied uploads. Its legacy HTML must be reviewed and adapted before copying anything into the modernized content structure. Normal development, builds, and tests do not need this tool or the original server.
 
-The import script is retained for provenance/recovery. **Do not re-import after editing content unless you intend to replace those edits.** It requires the XML export, supplied uploads, and access to the original live site:
-
-```sh
-npm run import:wordpress -- --force
-```
-
-Downloads are cached in `.cache/import/`; normal builds never use that cache. Re-importing overwrites imported page bodies, metadata, shared templates, and captured assets.
+Vendor styles, fonts, and media retain their original licensing terms. Keep the archive's content and media URLs stable when making future changes.

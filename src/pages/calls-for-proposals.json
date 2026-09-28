@@ -5,6 +5,9 @@
   "wpId": "348",
   "date": "2023-02-27T15:47:19",
   "kind": "page",
-  "headFile": "heads/calls-for-proposals.html",
-  "bodyClass": "wp-singular page-template-default page page-id-348 page-parent wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-348"
+  "bodyClass": "wp-singular page-template-default page page-id-348 page-parent wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-348",
+  "description": "Calls for Proposals for DLF Forum and Learn@DLF The Calls for Proposals for the DLF Forum and Learn@DLF closed on May 1. Thank you for your interest in our events. We hope to see you in St. Louis! /*! elementor – v3.12.2 – 23-04-2023 */ .elementor-column .elementor-spacer-inner{height:var(–spacer-size)}.e-con{–container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(–container-widget-width,var(–spacer-size));–align-self:var(–container-widget-align-self,initial);–flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(–container-widget-height,var(–spacer-size))} CLIR’s Digital Library Federation (DLF) invites proposals for Read More",
+  "image": "",
+  "updated": "2023-05-02T14:25:14+00:00",
+  "styleKey": "calls-for-proposals"
 }

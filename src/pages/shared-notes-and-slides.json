@@ -5,6 +5,10 @@
   "wpId": "320",
   "date": "2023-02-15T17:55:28",
   "kind": "page",
-  "headFile": "heads/shared-notes-and-slides.html",
-  "bodyClass": "wp-singular page-template-default page page-id-320 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-320"
+  "bodyClass": "wp-singular page-template-default page page-id-320 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-320",
+  "description": "DLF Forum Shared Notes and Slides Shared notes for all events can be found here: http://bit.ly/2023CLIR  Presenters will deposit slides in our OSF repositories at:  Learn@DLF and DLF Forum: https://osf.io/meetings/DLF2023   NDSA’s Digital Preservation: https://osf.io/meetings/NDSA2023",
+  "image": "/wp-content/uploads/sites/45/2023/02/49034336987_1a599a7237_k-Edited.jpg",
+  "updated": "2023-05-02T16:13:04+00:00",
+  "styleKey": "shared-notes-and-slides",
+  "heading": "DLF Forum Shared Notes and Slides"
 }

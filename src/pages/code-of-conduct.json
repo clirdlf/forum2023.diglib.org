@@ -5,6 +5,10 @@
   "wpId": "308",
   "date": "2023-02-15T17:52:10",
   "kind": "page",
-  "headFile": "heads/code-of-conduct.html",
-  "bodyClass": "wp-singular page-template-default page page-id-308 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-308"
+  "bodyClass": "wp-singular page-template-default page page-id-308 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-308",
+  "description": "DLF Code of Conduct The Digital Library Federation (DLF) is committed to creating and supporting inclusive, diverse, and equitable communities of practice. We strive to be a welcoming organization and the focal point for a digital library culture that is anti-oppression, recognizes intersectionalities, and works compassionately across differences. Together, DLF members advance research, learning, social Read More",
+  "image": "/wp-content/uploads/sites/45/2023/02/30950294240_aa58f3243d_k-Edited.jpg",
+  "updated": "2023-11-06T16:08:55+00:00",
+  "styleKey": "code-of-conduct",
+  "heading": "DLF Code of Conduct"
 }

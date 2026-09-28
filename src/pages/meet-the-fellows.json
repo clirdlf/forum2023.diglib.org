@@ -5,6 +5,10 @@
   "wpId": "344",
   "date": "2023-05-08T19:54:07",
   "kind": "page",
-  "headFile": "heads/meet-the-fellows.html",
-  "bodyClass": "wp-singular page-template-default page page-id-344 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-344"
+  "bodyClass": "wp-singular page-template-default page page-id-344 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-344",
+  "description": "Meet the DLF Forum Fellows With a deep-rooted dedication to fostering an inclusive and diverse community, DLF embraces members from all corners of the digital library, museum, archives, and cultural heritage sectors. Through our Forum Fellowships and GLAM Cross-Pollinator Registration Awards, we enthusiastically welcome new voices and perspectives that have greatly enriched our events and Read More",
+  "image": "/wp-content/uploads/sites/45/2023/08/davis-300x300.jpg",
+  "updated": "2023-12-18T15:19:42+00:00",
+  "styleKey": "meet-the-fellows",
+  "heading": "Meet the <br>\nDLF Forum Fellows"
 }

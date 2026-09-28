@@ -5,6 +5,10 @@
   "wpId": "350",
   "date": "2023-02-27T16:53:11",
   "kind": "page",
-  "headFile": "heads/registration.html",
-  "bodyClass": "wp-singular page-template-default page page-id-350 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-350"
+  "bodyClass": "wp-singular page-template-default page page-id-350 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-350",
+  "description": "CLIR Events Registration Registration for the DLF Forum, Learn@DLF, and NDSA’s Digital Preservation has now closed. Thank you for your interest in our events. Registration Rates Registration for all events closed on Friday, November 3, 2023. The deadline to request childcare or accessibility accommodations is Monday, October 2, to provide time for CLIR to contract Read More",
+  "image": "/wp-content/uploads/sites/45/2023/02/CLIRConference2022-Day3-MentorMenteeMeetings-Ferrara-01-Edited.jpg",
+  "updated": "2023-11-06T16:00:34+00:00",
+  "styleKey": "registration",
+  "heading": "CLIR Events Registration"
 }

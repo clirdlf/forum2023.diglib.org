@@ -1,0 +1,12 @@
+node_modules/
+_site/
+.cache/
+data/
+src/assets/vendor/
+src/styles/imported/
+src/pages/*.html
+src/_includes/*.html
+src/_includes/*.njk
+pnpm-lock.yaml
+playwright-report/
+test-results/

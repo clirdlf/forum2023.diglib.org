@@ -5,6 +5,9 @@
   "wpId": "312",
   "date": "2023-02-15T17:54:22",
   "kind": "page",
-  "headFile": "heads/the-team.html",
-  "bodyClass": "wp-singular page-template-default page page-id-312 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-312"
+  "bodyClass": "wp-singular page-template-default page page-id-312 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-312",
+  "description": "The Team Team DLF Jennifer Ferretti, DLF Director Jennifer (she/her) joined CLIR in June 2021 and is the DLF Director where she focuses on supporting and amplifying the work of the DLF community and CLIR initiatives and programs, such as the IMLS-supported Authenticity Project. Jennifer has been working in digital libraries for over 10 years Read More",
+  "image": "/wp-content/uploads/sites/45/2023/02/CLIRConference2022-Day-ReceptionTable-Ferrara-25-Edited.jpg",
+  "updated": "2023-07-06T14:56:29+00:00",
+  "styleKey": "the-team"
 }

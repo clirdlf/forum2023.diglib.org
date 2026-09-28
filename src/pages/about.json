@@ -5,6 +5,10 @@
   "wpId": "306",
   "date": "2023-02-15T18:23:39",
   "kind": "page",
-  "headFile": "heads/about.html",
-  "bodyClass": "wp-singular page-template-default page page-id-306 page-parent wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-306"
+  "bodyClass": "wp-singular page-template-default page page-id-306 page-parent wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-306",
+  "description": "About the DLF Forum DLF programs stretch year-round, but we are perhaps best known for our signature event, the annual DLF Forum. The DLF Forum welcomes digital library, archives, and museum practitioners from member institutions and beyond—for whom it serves as a meeting place, marketplace, and congress. As a meeting place, the DLF Forum provides Read More",
+  "image": "/wp-content/uploads/sites/45/2023/02/49033744958_1c11d05f4f_k-Edited.jpg",
+  "updated": "2023-08-30T18:43:47+00:00",
+  "styleKey": "about",
+  "heading": "About the DLF Forum"
 }

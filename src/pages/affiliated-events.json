@@ -5,6 +5,9 @@
   "wpId": "322",
   "date": "2023-02-15T17:55:46",
   "kind": "page",
-  "headFile": "heads/affiliated-events.html",
-  "bodyClass": "wp-singular page-template-default page page-id-322 page-parent wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148"
+  "bodyClass": "wp-singular page-template-default page page-id-322 page-parent wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148",
+  "description": "",
+  "image": "",
+  "updated": "2023-02-16T00:06:48+00:00",
+  "styleKey": "affiliated-events"
 }

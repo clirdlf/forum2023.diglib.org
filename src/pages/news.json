@@ -5,6 +5,10 @@
   "wpId": "310",
   "date": "2023-02-15T17:53:31",
   "kind": "page",
-  "headFile": "heads/news.html",
-  "bodyClass": "blog wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-page-158 elementor-default elementor-template-full-width elementor-kit-148"
+  "bodyClass": "blog wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-page-158 elementor-default elementor-template-full-width elementor-kit-148",
+  "description": "",
+  "image": "",
+  "updated": "2023-02-15T17:53:31",
+  "styleKey": "news",
+  "heading": "DLF Forum<br>\nNews"
 }

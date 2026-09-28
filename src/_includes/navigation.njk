@@ -1,0 +1,12 @@
+<ul class="elementor-nav-menu" id="navigation-{{ menuId }}">
+{% for item in navigation %}
+<li class="menu-item{% if item.children.length %} menu-item-has-children{% endif %}">
+{% if item.children.length %}
+<button type="button" class="elementor-item nav-disclosure" aria-label="{{ item.label }}" aria-expanded="false" aria-controls="{{ menuId }}-submenu-{{ loop.index }}">{{ item.label }}</button>
+<ul class="sub-menu elementor-nav-menu--dropdown" id="{{ menuId }}-submenu-{{ loop.index }}">
+{% for child in item.children %}<li class="menu-item"><a class="elementor-sub-item" href="{{ child.url }}"{% if child.url == page.url %} aria-current="page"{% endif %}>{{ child.label }}</a></li>{% endfor %}
+</ul>
+{% else %}<a class="elementor-item" href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.label }}</a>{% endif %}
+</li>
+{% endfor %}
+</ul>

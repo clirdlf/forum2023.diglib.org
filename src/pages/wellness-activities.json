@@ -5,6 +5,10 @@
   "wpId": "318",
   "date": "2023-02-15T17:55:13",
   "kind": "page",
-  "headFile": "heads/wellness-activities.html",
-  "bodyClass": "wp-singular page-template-default page page-id-318 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-318"
+  "bodyClass": "wp-singular page-template-default page page-id-318 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-318",
+  "description": "DLF Social and Wellness Activities Are you looking to get to know your fellow conference attendees, fit in some movement, or check out local attractions while you’re at the conference? The 2023 DLF Community Committee has you covered with a variety of social and wellness activities to help you get to know other attendees in Read More",
+  "image": "https://forum2022.diglib.org/wp-content/uploads/sites/43/2022/01/2019_DLF_Forum_MONDAY_PF-1459-scaled-1.jpg",
+  "updated": "2023-11-09T00:57:40+00:00",
+  "styleKey": "wellness-activities",
+  "heading": "DLF Social <br>and Wellness Activities"
 }

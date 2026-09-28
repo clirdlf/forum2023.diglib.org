@@ -5,6 +5,9 @@
   "wpId": "1108",
   "date": "2023-04-13T18:14:18",
   "kind": "page",
-  "headFile": "heads/sponsorship.html",
-  "bodyClass": "wp-singular page-template-default page page-id-1108 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-1108"
+  "bodyClass": "wp-singular page-template-default page page-id-1108 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-1108",
+  "description": "Sponsorship Our 2023 sponsorship opportunities are closed, but feel free to reach out to us about supporting future CLIR events. Download the Sponsorship Pack View the Sponsorship Pack in your browser Meet our 2023 Sponsors We are thrilled to invite you to join us as a sponsor at the 2023 CLIR events: Digital Library Federation Read More",
+  "image": "",
+  "updated": "2023-12-19T15:00:23+00:00",
+  "styleKey": "sponsorship"
 }

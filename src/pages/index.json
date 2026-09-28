@@ -5,6 +5,10 @@
   "wpId": "227",
   "date": "2023-02-15T13:08:18",
   "kind": "page",
-  "headFile": "heads/index.html",
-  "bodyClass": "home wp-singular page-template page-template-elementor_header_footer page page-id-227 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-template-full-width elementor-kit-148 elementor-page elementor-page-227"
+  "bodyClass": "home wp-singular page-template page-template-elementor_header_footer page page-id-227 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-template-full-width elementor-kit-148 elementor-page elementor-page-227",
+  "description": "2023 CLIR Events November 12 – 16St. Louis, Missouri The DLF Forum, Learn@DLF, and NDSA’s Digital Preservation are multi-day experiences for learning, networking, and skill-building seeking to inspire and connect a community of digital library, museum, archives, and cultural heritage practitioners. Photo Galleries from the 2023 CLIR Events Are Now Available! View all galleries See Read More",
+  "image": "/wp-content/uploads/sites/45/2023/02/2023_DLF_Banners_022123_vFINAL_OL_Facebook-Cover-940x788-.png",
+  "updated": "2023-12-20T19:09:30+00:00",
+  "styleKey": "index",
+  "heading": "2023 CLIR Events"
 }

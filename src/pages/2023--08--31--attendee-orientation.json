@@ -1,10 +1,16 @@
 {
   "layout": "base.njk",
-  "title": "Attendee Orientation - Nov. 1, 1pm ET",
+  "title": "Attendee Orientation – Nov. 1, 1pm ET",
   "permalink": "/2023/08/31/attendee-orientation/",
   "wpId": "1931",
   "date": "2023-08-31T08:43:15",
   "kind": "post",
-  "headFile": "heads/2023--08--31--attendee-orientation.html",
-  "bodyClass": "wp-singular post-template-default single single-post postid-1931 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-1931 elementor-page-161"
+  "bodyClass": "wp-singular post-template-default single single-post postid-1931 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-1931 elementor-page-161",
+  "description": "Are you attending the DLF Forum, Learn@DLF, or NDSA’s Digital Preservation in St. Louis? Are you a first-timer at one of our events, or out of conference practice and feeling a little unsure of what to expect? Join CLIR’s Program Manager for Conferences and Events Aliya Reich at a casual attendee orientation. The hour will Read More",
+  "image": "/wp-content/uploads/sites/45/2023/06/45907320132_40b6b0832b_k.jpg",
+  "updated": "2023-10-11T18:30:36+00:00",
+  "styleKey": "2023--08--31--attendee-orientation",
+  "excerpt": "Are you attending the DLF Forum, Learn@DLF, or NDSA’s Digital Preservation in St. Louis? Are you a first-timer at one of our events, or out",
+  "thumbnail": "/wp-content/uploads/sites/45/2023/06/45907320132_40b6b0832b_k-768x513.jpg",
+  "thumbnailAlt": "audience seated for plenary at 2018 DLF Forum"
 }

@@ -5,6 +5,10 @@
   "wpId": "332",
   "date": "2023-02-15T17:59:17",
   "kind": "page",
-  "headFile": "heads/health-protocols.html",
-  "bodyClass": "wp-singular page-template-default page page-id-332 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-332"
+  "bodyClass": "wp-singular page-template-default page page-id-332 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-332",
+  "description": "DLF Forum Health Protocols Newly-formed in 2023, Team DLF has formed the Pandemic Landscape Review Committee (“PLRC”), a small group of self-selected community member volunteers working with Team CLIR/DLF on health policies and protocols for our in-person events in November. The PLRC meets monthly with the intended role of giving advice, guidance, and recommendations. To Read More",
+  "image": "/wp-content/uploads/sites/45/2023/02/CLIRConference2022-Day1-OpeningPlenary-Ferrara-29-Edited.jpg",
+  "updated": "2023-09-25T20:44:28+00:00",
+  "styleKey": "health-protocols",
+  "heading": "DLF Forum Health Protocols"
 }

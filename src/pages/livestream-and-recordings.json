@@ -5,6 +5,9 @@
   "wpId": "2260",
   "date": "2023-11-08T11:12:58",
   "kind": "page",
-  "headFile": "heads/livestream-and-recordings.html",
-  "bodyClass": "wp-singular page-template-default page page-id-2260 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-2260"
+  "bodyClass": "wp-singular page-template-default page page-id-2260 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor ally-default hello-elementor-default hello-elementor elementor-default elementor-kit-148 elementor-page elementor-page-2260",
+  "description": "Livestream and Recordings DLF Forum 2023 Opening Plenary Click here to follow along in the shared notes for the DLF Forum Opening Plenary and submit a question. https://www.youtube.com/embed/OCj89Z7Cktk NDSA’s Digital Preservation 2023: Communities of Time and Place Opening Plenary Click here to follow along in the shared notes for NDSA’s Digital Preservation Opening Plenary. https://www.youtube.com/embed/Tnj6Sccw_z4?si=_E-nM1VtPq_Fr0gv",
+  "image": "",
+  "updated": "2023-11-15T21:59:58+00:00",
+  "styleKey": "livestream-and-recordings"
 }
