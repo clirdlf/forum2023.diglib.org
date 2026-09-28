@@ -12,7 +12,7 @@ export default defineConfig({
     trace: 'retain-on-failure',
   },
   webServer: {
-    command: 'pnpm exec eleventy --serve --port=8081',
+    command: 'node ./node_modules/@11ty/eleventy/cmd.cjs --serve --port=8081',
     url: 'http://127.0.0.1:8081',
     reuseExistingServer: !process.env.CI,
   },
